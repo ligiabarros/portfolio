@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de viagens</title>
+</head>
+
+<body>
+    <h1>
+        Reserva
+    </h1>
+    <section>
+        <fieldset>
+            <label> Nome</label><br>
+            <input type="text" name="Nome"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" required name="email" <br><br>
+        </fieldset>
+    </section>
+    <br><br>
+
+    <section>
+        <fieldset>
+            <legend>Serviços Desejados</legend>
+            <label>
+                <input type="checkbox" name="passagens" value="Passagens"> Compra de passagens
+            </label>
+            <label>
+                <br><input type="checkbox" name="hospedagem" value="hospedagem"> Reserva de hospedagem
+            </label>
+            <label>
+                <br><input type="checkbox" name="Veículos" value="Veículo"> Aluguel de veículos
+            </label>
+        </fieldset>
+    </section>
+    <br><br>
+
+    <fieldset>
+        <legend>Escolha a forma de pagamento</legend>
+        <label>
+            <br><input type="radio" name="formaPagamento" value="Cartao de crédito"> Cartão de Crédito
+        </label>
+        <label>
+            <br><input type="radio" name="forma de pagamento" value="Boleto"> Boleto
+        </label>
+        <label>
+            <br><input type="radio" name="FormaPagamento" value="Pix">Pix
+        </label>
+    </fieldset>
+    <br>
+    </fieldset>
+    <section>
+        <fieldset>
+            <legend> Escolha o prazo para pagamento</legend>
+            <select name="prazoPagamento">
+                <option value="aVista"> à vista</option>
+                <option value="5x">5x sem juros</option>
+                <option value="10x" selected>10x com juros</option>
+            </select>
+        </fieldset>
+    </section>
+    <br><br>
+    <button type="submit">ENVIAR</button>
+    <footer></footer>
+</body>
+
+</html>

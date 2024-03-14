@@ -1,0 +1,33 @@
+
+h1{
+    font-size: 63px;
+    color: #303030;
+    padding: 15px;
+color:aquamarine;
+text-align: center;
+
+}
+
+p1{
+    margin: 40px;
+}
+
+h2{
+    font-size:24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight:
+}
+
+.imagem {
+    display: inline-block;
+    max-width: 300px; /* Define a largura máxima da imagem */
+    height: 200px; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Adiciona um espaço entre as imagens (opcional) */
+    vertical-align: top; /* Alinha as imagens no topo */
+}
+
+figcaption {
+    text-align: center; /* Alinha o texto da legenda no centro */
+    margin-top: 5px; /* Adiciona um espaço entre a imagem e a legenda */
+}
